@@ -5,21 +5,21 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className='relative flex flex-col md:flex-row w-full h-screen items-center justify-center px-4 pt-20 gap-6  max-w-6xl mx-auto'>
+    <main className='relative flex flex-col md:flex-row w-full h-screen items-center justify-center px-4 py-8 md:pt-16 gap-6  max-w-6xl mx-auto'>
       {/* <div clas> */}
-      <div className="flex items-center justify-center">
-          <div className='relative w-[150px] md:w-[220px] aspect-square rounded-xl overflow-hidden'>
-        <Image
-          alt=''
-          priority
-          src='/nfvcb_logo.webp'
-          // width={100}
-          // height={65}
-          fill
-        />
+      <div className='flex items-center justify-center'>
+        <div className='relative w-[150px] md:w-[220px] aspect-square rounded-xl overflow-hidden'>
+          <Image
+            alt=''
+            priority
+            src='/nfvcb_logo.webp'
+            // width={100}
+            // height={65}
+            fill
+          />
+        </div>
       </div>
-      </div>
-    
+
       <div className='max-w-xl text-4xl lg:text-5xl text-center flex flex-col gap-6'>
         <p>
           The <strong className='text-green-700'>NFVCB</strong> staff{" "}
