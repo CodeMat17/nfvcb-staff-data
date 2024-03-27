@@ -5,9 +5,10 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className='relative flex flex-col md:flex-row w-full h-screen justify-center items-center px-4 gap-6 md:gap-16 max-w-6xl mx-auto'>
+    <main className='relative flex flex-col md:flex-row w-full h-screen items-center justify-center px-4 pt-44 gap-6  max-w-6xl mx-auto'>
       {/* <div clas> */}
-      <div className='relative w-[150px] md:w-[220px] aspect-square rounded-xl overflow-hidden'>
+      <div className=" border flex items-center justify-center">
+          <div className='relative w-[150px] md:w-[220px] aspect-square rounded-xl overflow-hidden'>
         <Image
           alt=''
           priority
@@ -17,7 +18,9 @@ export default function Home() {
           fill
         />
       </div>
-      <div className='text-4xl lg:text-5xl text-center flex flex-col gap-6'>
+      </div>
+    
+      <div className='max-w-xl text-4xl lg:text-5xl text-center flex flex-col gap-6'>
         <p>
           The <strong className='text-green-700'>NFVCB</strong> staff{" "}
           <span className='text-green-700'>DataDeck</span>
