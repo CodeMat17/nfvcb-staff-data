@@ -5,9 +5,9 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className='relative flex flex-col md:flex-row w-full h-screen items-center justify-center px-4 pt-44 gap-6  max-w-6xl mx-auto'>
+    <main className='relative flex flex-col md:flex-row w-full h-screen items-center justify-center px-4 pt-20 gap-6  max-w-6xl mx-auto'>
       {/* <div clas> */}
-      <div className=" border flex items-center justify-center">
+      <div className="flex items-center justify-center">
           <div className='relative w-[150px] md:w-[220px] aspect-square rounded-xl overflow-hidden'>
         <Image
           alt=''
