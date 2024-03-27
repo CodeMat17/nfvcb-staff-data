@@ -15,9 +15,6 @@ const DashboardNav = () => {
         </div>
        
       </div>
-      {/* <div className='hidden md:flex'>
-        <HamburgerMenu />
-      </div> */}
     </div>
   );
 };

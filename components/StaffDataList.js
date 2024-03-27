@@ -58,10 +58,10 @@ const StaffDataList = ({ staffList }) => {
               <Drawer>
                 <DrawerTrigger
                   asChild
-                  className='flex justify-start gap-3 mb-3'>
+                  className='flex justify-start gap-3 mb-4'>
                   <Button
                     variant='ghost'
-                    className='w-full text-lg tracking-wid'>
+                    className='w-full text-lg'>
                     <Avatar>
                       <AvatarImage
                         src={staff.avatar}
