@@ -2,7 +2,15 @@
 
 // components/HamburgerMenu.js
 import { motion } from "framer-motion";
-import { AlignRight, Briefcase, Contact, Film, Home, Users, X } from "lucide-react";
+import {
+  AlignRight,
+  Briefcase,
+  Contact,
+  Film,
+  Home,
+  Users,
+  X,
+} from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -49,13 +57,13 @@ const HamburgerMenu = () => {
         <Link
           href='/dashboard'
           onClick={() => setIsOpen(false)}
-          className='flex px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700  rounded-lg tracking-wider text-lg font-semibold'>
+          className='flex px-4 py-3 hover:bg-gray-100 dark:hover:bg-gray-700  rounded-lg tracking-wider text-lg font-semibold'>
           <Contact className='mr-4' /> STAFF DATA
         </Link>
         <Link
           href='#'
           onClick={() => setIsOpen(false)}
-          className='flex px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700  rounded-lg tracking-wider text-lg font-semibold'>
+          className='flex px-4 py-3 hover:bg-gray-100 dark:hover:bg-gray-700  rounded-lg tracking-wider text-lg font-semibold'>
           <Film className='mr-4' /> MOVIES
         </Link>
         <Link
@@ -67,7 +75,7 @@ const HamburgerMenu = () => {
         <Link
           href='#'
           onClick={() => setIsOpen(false)}
-          className='flex px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg tracking-wider text-lg font-semibold'>
+          className='flex px-4 py-3 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg tracking-wider text-lg font-semibold'>
           <Briefcase className='mr-4' /> OTHERS
         </Link>
 
