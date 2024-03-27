@@ -45,6 +45,7 @@ const StaffDataList = ({ staffList }) => {
           type='search'
           onChange={handleSearch}
           placeholder='Search staff with name, file No. or location'
+          className='border-gray-400 py-5'
         />
       </div>
       <div className='mt-12'>
