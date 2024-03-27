@@ -1,4 +1,4 @@
-import { Contact, Film, UserRound, Users } from "lucide-react";
+import { Briefcase, Contact, Film, Home, UserRound, Users } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -10,6 +10,17 @@ const SideNav = () => {
     <div className=' border hidden md:flex flex-col w-[200px] h-screen fixed items-center justify-center gap-4'>
       <Link
         href='/'
+        className={`w-full px-4 py-2.5 font-medium text-green-700 hover:bg-green-400/20 ${
+          pathname === "/" ? "bg-green-400/20" : null
+        }`}>
+        <span className='flex items-center '>
+          <Home className='mr-3 flex-shrink-0' />{" "}
+          <p className='whitespace-nowrap'>Home</p>
+        </span>
+      </Link>
+
+      <Link
+        href='/dashboard'
         className={`w-full px-4 py-2.5 font-medium text-green-700 hover:bg-green-400/20 ${
           pathname === "/dashboard" ? "bg-green-400/20" : null
         }`}>
@@ -41,7 +52,7 @@ const SideNav = () => {
         href='#'
         className='w-full px-4 py-2.5 font-medium text-green-700 hover:bg-green-400/20'>
         <span className='flex items-center '>
-          <UserRound className='mr-3 flex-shrink-0' />{" "}
+          <Briefcase className='mr-3 flex-shrink-0' />{" "}
           <p className='whitespace-nowrap'>Others</p>
         </span>
       </Link>

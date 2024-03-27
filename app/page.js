@@ -25,7 +25,7 @@ export default function Home() {
         <div>
           <Button
             asChild
-            className='bg-gradient-to-tr from-green-700 to-green-300 px-20 py-6 text-lg font-semibold tracking-wider'>
+            className='bg-gradient-to-tr from-green-700 to-green-300 px-20 py-6 text-white text-lg font-semibold tracking-wider'>
             <Link href='/dashboard'>View</Link>
           </Button>
         </div>
